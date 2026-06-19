@@ -13,7 +13,7 @@ public:
                 if (token == "+") st.push(a + b);
                 else if (token == "-") st.push(a - b);
                 else if (token == "*") st.push(a * b);
-                else st.push(a / b); // truncates toward zero
+                else st.push(a / b); 
             } else {
                 st.push(stoi(token));
             }
